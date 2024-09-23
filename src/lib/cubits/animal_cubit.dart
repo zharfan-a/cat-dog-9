@@ -17,10 +17,10 @@ class AnimalState extends Equatable {
 
 // AnimalCubit class
 class AnimalCubit extends Cubit<AnimalState> {
-	AnimalCubit() : super(AnimalState.animal(Animal.cat));
+	AnimalCubit() : super(AnimalState.animal(Animal.bird));
 
 	void toggleAnimal() {
-		final newAnimal = state.animal == Animal.cat ? Animal.dog : Animal.cat;
+		final newAnimal = state.animal == Animal.bird ? Animal.dog : Animal.bird;
 		emit(AnimalState.animal(newAnimal));
 	}
 }
