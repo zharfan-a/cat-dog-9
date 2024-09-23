@@ -24,3 +24,6 @@ class Animal {
 		);
 	}
 }
+
+const Animal bird = Animal(name: 'Bird', icon: Icons.access_time); // Clock icon
+const Animal dog = Animal(name: 'Dog', icon: Icons.person);
