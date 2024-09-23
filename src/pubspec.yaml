@@ -1,21 +1,19 @@
 name: animal_switcher
-description: A simple Flutter app that switches between a cat and a dog when the text is clicked.
+description: A simple Flutter application that switches between displaying a bird (with clock icon) and a dog (with person icon) when the text is clicked.
 version: 1.0.0
 environment:
   sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=2.5.0"
-
+  flutter: ">=3.7.0"
 dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^8.0.1
-  bloc: ^8.0.1
-
+  bloc: ^8.0.3
+  equatable: ^2.0.3
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
   bloc_test: ^9.0.3
   mocktail: ^0.3.0
-
+  flutter_test:
+    sdk: flutter
 flutter:
   uses-material-design: true
